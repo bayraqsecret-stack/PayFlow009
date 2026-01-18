@@ -61,3 +61,24 @@ footer {
   h1 { font-size: 26px; }
   .card { padding: 20px; }
 }
+.lang {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.lang button {
+  background: transparent;
+  border: 1px solid #00ffd5;
+  color: #00ffd5;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
