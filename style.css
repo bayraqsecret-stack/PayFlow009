@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin: 40px 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.08);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card span {
+  font-size: 28px;
+  display: block;
+  margin: 20px 0;
+}
+
+.pay-btn {
+  display: block;
+  background: #00ffd5;
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  opacity: 0.6;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 480px) {
+  h1 { font-size: 26px; }
+  .card { padding: 20px; }
+}
